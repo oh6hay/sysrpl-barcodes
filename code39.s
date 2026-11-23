@@ -58,7 +58,7 @@ DEFINE outsto 1PUTLAM
 
           ( draw blacks )
           THIRTEEN ONE DO
-            DUP INDEX@ SUB$1# FORTYNINE #= IT ( THIRTYONE is 1, meaning a black bar )
+            DUP INDEX@ SUB$1# FORTYNINE #= IT ( FORTYNINE is 1, meaning a black bar )
             :: black out
                JINDEX@ #1- THIRTEEN #* INDEX@ #1- #+ ZERO GROB! ;
           LOOP
